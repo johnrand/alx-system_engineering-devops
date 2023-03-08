@@ -1,1 +1,1 @@
-script listing all file in long format including hidden
+script displaying file numerically
