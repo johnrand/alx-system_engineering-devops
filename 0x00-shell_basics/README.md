@@ -1,1 +1,1 @@
-script to create a directoy in /tmp directory
+moving a file from /tmp 
