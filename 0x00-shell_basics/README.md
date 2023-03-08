@@ -1,1 +1,1 @@
-script to list all files in long format
+script listing all file in long format including hidden
