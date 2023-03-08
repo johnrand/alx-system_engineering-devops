@@ -1,1 +1,1 @@
-script displaying file numerically
+script to create a directoy in /tmp directory
