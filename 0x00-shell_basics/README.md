@@ -1,1 +1,1 @@
-delete a file from /tmp
+script to delete dir in /tmp
