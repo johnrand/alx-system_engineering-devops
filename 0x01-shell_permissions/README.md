@@ -1,1 +1,1 @@
-script for groups
+changing ownership
