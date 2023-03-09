@@ -1,1 +1,1 @@
-script to delete dir in /tmp
+script changing to previous dir
