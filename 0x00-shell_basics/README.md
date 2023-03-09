@@ -1,1 +1,1 @@
-moving a file from /tmp 
+delete a file from /tmp
