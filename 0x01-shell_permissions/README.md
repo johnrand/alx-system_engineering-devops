@@ -1,1 +1,1 @@
-add permissions
+everybody has permission
