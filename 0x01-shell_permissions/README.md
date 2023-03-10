@@ -1,1 +1,1 @@
- permission format
+mirror permission
