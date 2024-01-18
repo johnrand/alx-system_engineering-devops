@@ -1,2 +1,2 @@
 #!/bin/bash
-olh_mod=$(stat -c "%a" olleh) chmod $olh_mod hello
+chown --from=guillaume betty hello
