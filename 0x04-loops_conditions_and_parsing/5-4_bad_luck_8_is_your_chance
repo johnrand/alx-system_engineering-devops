@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Script to display best school 10x but for 4 and 8 iter
+# display bad luck and good luck respectively
+
+LIMIT=10
+i=1
+
+while (( i <= LIMIT)); do
+
+	if [ "$i" -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ "$i" -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+
+	((i++))
+
+done
