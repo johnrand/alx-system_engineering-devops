@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# display the content of the current directory
+# in list format where only part of the name after the first
+# dash is displayed
+
+for File in *; do
+
+	echo "$File" | cut -d '-' -f 2;
+
+done
