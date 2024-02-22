@@ -6,11 +6,12 @@
 # -----------------------------------------------
 
 Hour=0
-Minute=1
 
 while (( Hour <= 12 )); do
 
 	echo "Hour: $Hour"
+	
+	Minute=1
 
 	while (( Minute <= 59)); do
 
@@ -21,5 +22,5 @@ while (( Hour <= 12 )); do
 	((Hour++))
 
 	# Reset min to zero
-	Minute=0
+	# Minute=0
 done
