@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# read and cat content of the file /etc/passwd
+#+ only display:
+#+		username
+#+		user id
+#+		Home directory path for the user
+
+File="/etc/passwd"
+
+while IFS= read -r line; do
+  echo "$line" | cut -d ':' -f1,3,6
+done < "$File"
