@@ -5,7 +5,7 @@
 - How many layers it has
 - How it is organized
 
-#What is a LAN
+# What is a LAN
 - Typical usage
 - Typical geographical size
 - What is a WAN
@@ -18,7 +18,7 @@
 - What is a subnet
 - Why IPv6 was created
 
-#TCP/UDP
+# TCP/UDP
 - What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)
 		- TCP
 		- UDP
