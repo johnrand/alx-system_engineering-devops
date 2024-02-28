@@ -8,6 +8,14 @@ cleanup_exit()
 	exit
 }
 
+# signal traps	
+trap 'echo "Y U no love me?!"' SIGINT
+	
+trap 'echo "I hate the kill command" && cleanup_exit' SIGTERM
+	
+trap 'cleanup_exit' SIGQUIT
+
+
 # Get pid of and save on file
 echo $$ > /var/run/myscript.pid
 
@@ -16,10 +24,4 @@ do
 	echo "To infinity and beyond"
 	
 	sleep 2
-	
-	trap 'echo "Y U no love me?!"' SIGINT
-	
-	trap 'echo "I hate the kill command"' SIGTERM
-	
-	trap 'cleanup_exit' SIGTERM SIGQUIT
 done
