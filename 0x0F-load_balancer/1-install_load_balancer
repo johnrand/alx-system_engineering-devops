@@ -41,7 +41,7 @@ defaults
 
 frontend jralx-tech-frontend
     bind *:80
-    default_backend th3gr00t-tech-backend
+    default_backend jralx-tech-backend
 
 backend jralx-tech-backend
     balance roundrobin
